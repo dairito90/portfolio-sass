@@ -1,0 +1,19 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        display: none;
+
+        @media all and (min-width: 992px) {
+            display: block;
+        }
+    }
+
+    .menu-button {
+
+        @media all and (min-width: 992px) {
+            display: none;
+        }
+    }
+}
